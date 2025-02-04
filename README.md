@@ -59,8 +59,8 @@ Src/Main/Resources contains:
 # Execution Result:
 
 ## ScreenShots:
-![SuccessRun_ScreenShot1.png](EvidenceOfTheTestRun/SuccessRun_ScreenShot1.png)
-![SuccessRun_ScreenShot2.png](EvidenceOfTheTestRun/SuccessRun_ScreenShot2.png)
+![Screen Shot 2025-02-04 at 10.51.25 PM.png](EvidenceOfTheTestRun/Screen%20Shot%202025-02-04%20at%2010.51.25%20PM.png)
+![Screen Shot 2025-02-04 at 10.51.34 PM.png](EvidenceOfTheTestRun/Screen%20Shot%202025-02-04%20at%2010.51.34%20PM.png)
 
 ## ScreenRecording:
 [Screen Recording 2025-02-04 at 2.22.12 PM (1).mp4](EvidenceOfTheTestRun/Screen%20Recording%202025-02-04%20at%202.22.12%20PM%20%281%29.mp4)
