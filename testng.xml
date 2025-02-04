@@ -11,21 +11,18 @@
         <classes>
             <class name="com.exinity.mobile.test.CounterAppTest">
                 <methods>
-                    <include name="validateCalendarAppElements"/>
-                    <include name="validatingAdditionByOneFunctionality"/>
-                    <include name="validatingResetBtnFunctionality"/>
-                    <include name="validatingNoDateBeingSelected"/>
-                    <include name="validatingDateBeingSelected"/>
+                    <include name="validate_Counter_App_Initial_State_And_Counter_Increment_And_Reset"/>
+                    <include name="validate_No_Date_Selected_And_Date_Selected"/>
                     <include name="failedTestCaseOfDateNotBeingDisplayed"/>
                 </methods>
             </class>
-<!--            <class name="com.exinity.api.test.JiraApiTest">-->
-<!--                <methods>-->
-<!--                    <include name="createJIRAIssue"/>-->
-<!--                    <include name="getJIRAIssue"/>-->
-<!--                    <include name="updateJIRAIssue"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="com.exinity.api.test.JiraApiTest">
+                <methods>
+                    <include name="createJIRAIssue"/>
+                    <include name="getJIRAIssue"/>
+                    <include name="updateJIRAIssue"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
