@@ -18,9 +18,9 @@
             </class>
             <class name="com.exinity.api.test.JiraApiTest">
                 <methods>
-                    <include name="createJIRAIssue"/>
-                    <include name="getJIRAIssue"/>
-                    <include name="updateJIRAIssue"/>
+                    <include name="create_JIRA_Issue"/>
+                    <include name="get_JIRA_Issue"/>
+                    <include name="update_JIRA_Issue"/>
                 </methods>
             </class>
         </classes>
