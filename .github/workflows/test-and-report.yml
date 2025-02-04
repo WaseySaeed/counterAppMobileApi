@@ -1,0 +1,31 @@
+name: Test and Generate Allure Report
+
+on:
+  workflow_dispatch:
+    inputs:
+      PLATFORM:
+        description: "Which platform you want to build"
+        required: true
+        default: "ios"
+        type: choice
+        options:
+          - android
+          - ios
+
+jobs:
+  app-test:
+    runs-on: ubuntu-latest
+    container: maven:3.8-openjdk-11
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Tests
+        run: mvn test -DsuiteXmlFile=testng.xml
+
+      - name: Upload Test Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: |
+            reports/
