@@ -61,4 +61,4 @@ Src/Main/Resources contains:
 ![SuccessRun_ScreenShot2.png](EvidenceOfTheTestRun/SuccessRun_ScreenShot2.png)
 
 ## ScreenRecording:
-[Screen Recording 2025-02-04 at 2.22.12 PM.mov](EvidenceOfTheTestRun/Screen%20Recording%202025-02-04%20at%202.22.12%20PM.mov)
+[Screen Recording 2025-02-04 at 2.22.12 PM (1).mp4](EvidenceOfTheTestRun/Screen%20Recording%202025-02-04%20at%202.22.12%20PM%20%281%29.mp4)
