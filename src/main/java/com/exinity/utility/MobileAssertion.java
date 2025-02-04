@@ -2,6 +2,7 @@ package com.exinity.utility;
 
 import com.exinity.mobile.page.CounterAppTestPage;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 public class MobileAssertion {
 
@@ -10,45 +11,30 @@ public class MobileAssertion {
     }
 
     public static void validateCounterFunctionality(boolean value) {
-        try {
-            Assert.assertTrue(value);
-            System.out.println("AddOneButton functionality works!");
-        } catch (AssertionError e) {
-            System.out.println("AddOneButton functionality failed!");
-        }
+        SoftAssert softassert = new SoftAssert();
+        softassert.assertTrue(value);
+        System.out.println("AddOneButton functionality works!");
 
     }
 
     public static void validateResetBtnFunctionality(boolean value) {
-        try {
-            Assert.assertTrue(value);
-            System.out.println("Reset functionality works!");
-        } catch (AssertionError e) {
-            System.out.println("Reset functionality failed!");
-        }
+        SoftAssert softassert = new SoftAssert();
+        softassert.assertTrue(value);
+        System.out.println("Reset functionality works!");
 
     }
 
-    public static void assertCalendarCancellationBtn(boolean value)
-    {
-        try {
-            Assert.assertTrue(value);
-            System.out.println("Cancel Calendar Button Functionality works!");
-        } catch (AssertionError e) {
-            System.out.println("Cancel Calendar Button functionality failed!");
-        }
+    public static void assertCalendarCancellationBtn(boolean value) {
+        SoftAssert softassert = new SoftAssert();
+        softassert.assertTrue(value);
+        System.out.println("Cancel Calendar Button Functionality works!");
 
     }
 
-    public static void assertCalendarDateSelectionBtn(boolean o) {
-        try {
-            Assert.assertTrue(o);
-            System.out.println("Date Selection Calendar Button Functionality works!");
-        } catch (AssertionError e) {
-            System.out.println("Date Selection Calendar Button functionality failed!");
-        }
-
+    public static void assertCalendarDateSelectionBtn(boolean value) {
+        SoftAssert softassert = new SoftAssert();
+        softassert.assertTrue(value);
+        System.out.println("Date Selection Calendar Button Functionality works!");
     }
-
 
 }
