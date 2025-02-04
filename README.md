@@ -53,6 +53,8 @@ Src/Main/Resources contains:
 2. Open the device emulator or connect the device
 3. In the application.properties set the name of the said device or emulator for the Key= android_device_name
 4. Go to testng.xml file in the project structure and run the test cases by running the **testng.xml** file
+5. LikeWise API test can be run directly
+6. Basic authorization for api test is given in application.properties, if it has to be executed for a different project, replace the authorization value with encoded authorization value
 
 # Execution Result:
 
