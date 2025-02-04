@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "summary": "Updated the existing issue",
+    "description": "Validated that the update API is working via codeBase"
+  },
+  "update": {
+    "labels": [
+      {
+        "add": "triaged"
+      },
+      {
+        "remove": "blocker"
+      }
+    ]
+  }
+}

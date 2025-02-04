@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2">
+    <!-- Add listener here -->
+    <listeners>
+        <listener class-name="com.exinity.utility.TestListener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="/Users/waseysaeed/Desktop/untitled">
+        <parameter name="outputdir" value="test-output"/>
+        <classes>
+            <class name="com.exinity.mobile.test.CounterAppTest">
+                <methods>
+                    <include name="validateCalendarAppElements"/>
+                    <include name="validatingAdditionByOneFunctionality"/>
+                    <include name="validatingResetBtnFunctionality"/>
+                    <include name="validatingNoDateBeingSelected"/>
+                    <include name="validatingDateBeingSelected"/>
+                    <include name="failedTestCaseOfDateNotBeingDisplayed"/>
+                </methods>
+            </class>
+<!--            <class name="com.exinity.api.test.JiraApiTest">-->
+<!--                <methods>-->
+<!--                    <include name="createJIRAIssue"/>-->
+<!--                    <include name="getJIRAIssue"/>-->
+<!--                    <include name="updateJIRAIssue"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

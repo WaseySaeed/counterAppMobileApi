@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "project": {
+      "id": "10001"
+    },
+    "issuetype": {
+      "id": "10008"
+    },
+    "summary": "Creating a JIRA Issue via API",
+    "description": "Validating that issue is being create Via Post JIRA API.",
+    "assignee": {
+      "id": "62e0f47c2fe585febb3bda9d"
+    },
+    "reporter": {
+      "id": "62e0f47c2fe585febb3bda9d"
+    },
+    "labels": [
+      "bugfix",
+      "blitz_test"
+    ]
+  }
+}
