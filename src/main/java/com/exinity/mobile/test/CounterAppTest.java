@@ -10,33 +10,17 @@ public class CounterAppTest extends BaseClassMobile {
 
 
     @Test
-    public void validateCalendarAppElements() {
+    public void validate_Counter_App_Initial_State_And_Counter_Increment_And_Reset() {
         CounterAppTestPage counterAppTestPage = new CounterAppTestPage(driver);
         MobileAssertion.validateUiElements(counterAppTestPage);
-    }
-
-    @Test
-    public void validatingAdditionByOneFunctionality() {
-        CounterAppTestPage counterAppTestPage = new CounterAppTestPage(driver);
         MobileAssertion.validateCounterFunctionality(counterAppTestPage.validatingCounterByOneFunctionality(5));
-    }
-
-    @Test
-    public void validatingResetBtnFunctionality() {
-        CounterAppTestPage counterAppTestPage = new CounterAppTestPage(driver);
-        counterAppTestPage.validatingCounterByOneFunctionality(3);
         MobileAssertion.validateResetBtnFunctionality(counterAppTestPage.validatingResetBtnFunctionality());
     }
 
     @Test
-    public void validatingNoDateBeingSelected() {
+    public void validate_No_Date_Selected_And_Date_Selected() {
         CounterAppTestPage counterAppTestPage = new CounterAppTestPage(driver);
         counterAppTestPage.validateCalendarFunctionality("cancelBtn");
-    }
-
-    @Test
-    public void validatingDateBeingSelected() {
-        CounterAppTestPage counterAppTestPage = new CounterAppTestPage(driver);
         counterAppTestPage.validateCalendarFunctionality("selectDate");
     }
 
