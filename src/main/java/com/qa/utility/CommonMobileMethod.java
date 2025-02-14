@@ -1,4 +1,4 @@
-package com.exinity.utility;
+package com.qa.utility;
 
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;

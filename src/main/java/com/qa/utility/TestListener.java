@@ -1,4 +1,4 @@
-package com.exinity.utility;
+package com.qa.utility;
 
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import static com.exinity.mobile.appium.DriverFactory.getAppiumDriver;
+import static com.qa.mobile.appium.DriverFactory.getAppiumDriver;
 
 public class TestListener implements ITestListener {
 

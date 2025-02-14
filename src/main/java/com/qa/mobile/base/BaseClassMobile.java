@@ -1,7 +1,7 @@
-package com.exinity.mobile.base;
+package com.qa.mobile.base;
 
-import com.exinity.utility.ConfigReader;
-import com.exinity.mobile.appium.DriverFactory;
+import com.qa.utility.ConfigReader;
+import com.qa.mobile.appium.DriverFactory;
 import io.appium.java_client.AppiumDriver;
 import org.testng.annotations.*;
 

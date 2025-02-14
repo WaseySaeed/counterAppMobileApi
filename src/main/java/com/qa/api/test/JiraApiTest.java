@@ -1,12 +1,12 @@
-package com.exinity.api.test;
+package com.qa.api.test;
 
-import com.exinity.api.service.ApiClient;
-import com.exinity.api.base.BaseClassApi;
-import com.exinity.utility.ApiAssertion;
+import com.qa.api.service.ApiClient;
+import com.qa.api.base.BaseClassApi;
+import com.qa.utility.ApiAssertion;
 import com.microsoft.playwright.APIResponse;
 import org.testng.annotations.Test;
 import java.io.IOException;
-import static com.exinity.utility.CommonApiMethods.*;
+import static com.qa.utility.CommonApiMethods.*;
 
 public class JiraApiTest extends BaseClassApi {
 

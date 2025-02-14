@@ -1,7 +1,7 @@
-package com.exinity.mobile.page;
+package com.qa.mobile.page;
 
-import com.exinity.utility.CommonMobileMethod;
-import com.exinity.utility.MobileAssertion;
+import com.qa.utility.CommonMobileMethod;
+import com.qa.utility.MobileAssertion;
 import io.appium.java_client.pagefactory.*;
 import org.openqa.selenium.*;
 

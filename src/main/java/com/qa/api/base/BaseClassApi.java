@@ -1,7 +1,7 @@
-package com.exinity.api.base;
+package com.qa.api.base;
 
-import com.exinity.utility.ConfigReader;
-import com.exinity.utility.TestListener;
+import com.qa.utility.ConfigReader;
+import com.qa.utility.TestListener;
 import com.microsoft.playwright.APIRequestContext;
 import com.microsoft.playwright.Playwright;
 import org.testng.annotations.*;

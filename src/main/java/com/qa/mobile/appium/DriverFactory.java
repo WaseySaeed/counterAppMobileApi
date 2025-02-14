@@ -1,6 +1,6 @@
-package com.exinity.mobile.appium;
+package com.qa.mobile.appium;
 
-import com.exinity.utility.ConfigReader;
+import com.qa.utility.ConfigReader;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;

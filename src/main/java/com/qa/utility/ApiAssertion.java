@@ -1,4 +1,4 @@
-package com.exinity.utility;
+package com.qa.utility;
 
 import com.microsoft.playwright.APIResponse;
 import org.testng.Assert;

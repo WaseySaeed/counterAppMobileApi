@@ -1,6 +1,6 @@
-package com.exinity.api.service;
+package com.qa.api.service;
 
-import com.exinity.utility.ConfigReader;
+import com.qa.utility.ConfigReader;
 import com.microsoft.playwright.APIRequestContext;
 import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.options.RequestOptions;

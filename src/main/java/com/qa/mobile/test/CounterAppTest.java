@@ -1,8 +1,8 @@
-package com.exinity.mobile.test;
+package com.qa.mobile.test;
 
-import com.exinity.mobile.page.CounterAppTestPage;
-import com.exinity.mobile.base.BaseClassMobile;
-import com.exinity.utility.MobileAssertion;
+import com.qa.mobile.page.CounterAppTestPage;
+import com.qa.mobile.base.BaseClassMobile;
+import com.qa.utility.MobileAssertion;
 import org.testng.annotations.*;
 
 

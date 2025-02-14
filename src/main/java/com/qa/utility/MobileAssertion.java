@@ -1,6 +1,6 @@
-package com.exinity.utility;
+package com.qa.utility;
 
-import com.exinity.mobile.page.CounterAppTestPage;
+import com.qa.mobile.page.CounterAppTestPage;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
